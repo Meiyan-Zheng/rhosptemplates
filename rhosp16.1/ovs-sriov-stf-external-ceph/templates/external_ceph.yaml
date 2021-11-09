@@ -1,0 +1,9 @@
+parameter_defaults:
+  CephClientKey: AQDqLYJhUjFFIBAAzOGaljLARYt5ncfXu0JHpg==
+  CephClusterFSID: 6c11aeb8-a9f1-4cdc-958b-a3c7f45cb041
+  CephExternalMonHost: '[v2:10.72.37.96:3300,v1:10.72.37.96:6789],[v2:10.72.37.244:3300,v1:10.72.37.244:6789],[v2:10.72.37.106:3300,v1:10.72.37.106:6789]'
+  CephClientUserName: openstack
+  NovaRbdPoolName: vms
+  CinderRbdPoolName: volumes
+  GlanceRbdPoolName: images
+  GnocchiRbdPoolName: metrics

@@ -1,0 +1,11 @@
+parameter_defaults:
+  CeilometerQdrPublishEvents: true
+  MetricsQdrConnectors:
+  - host: default-interconnect-5671-service-telemetry.apps.ocp4.example.com
+    port: 443
+    role: edge
+    sslProfile: sslProfile
+    verifyHostname: false
+
+  MetricsQdrSSLProfiles:
+  - name: sslProfile

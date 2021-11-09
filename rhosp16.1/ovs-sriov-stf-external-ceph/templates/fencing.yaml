@@ -1,0 +1,28 @@
+parameter_defaults:
+  EnableFencing: true
+  FencingConfig:
+    devices:
+    - agent: fence_ipmilan
+      host_mac: 18:66:da:f8:96:51
+      params:
+        ipaddr: 10.72.48.16
+        lanplus: true
+        login: rcuser
+        passwd: Access@gis
+        pcmk_host_list: overcloud-controller-0
+    - agent: fence_ipmilan
+      host_mac: 18:66:da:f8:84:79
+      params:
+        ipaddr: 10.72.48.18
+        lanplus: true
+        login: rcuser
+        passwd: Access@gis
+        pcmk_host_list: overcloud-controller-2
+    - agent: fence_ipmilan
+      host_mac: 18:66:da:f8:95:ad
+      params:
+        ipaddr: 10.72.48.20
+        lanplus: true
+        login: rcuser
+        passwd: Access@gis
+        pcmk_host_list: overcloud-controller-1
